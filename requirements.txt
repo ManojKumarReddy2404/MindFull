@@ -1,0 +1,16 @@
+# Core Application
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+pydantic-settings
+
+# AI & APIs
+boto3
+httpx
+requests
+
+# File Handling
+aiofiles
+
+pydantic-settings

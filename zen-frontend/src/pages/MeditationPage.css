@@ -1,0 +1,56 @@
+.meditation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #EDF6F9;
+    min-height: 100vh;
+    font-family: 'Motiva Sans', sans-serif;
+    color: #457B9D;
+}
+
+.meditation-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.meditation-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+
+.meditation-script {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    white-space: pre-wrap; /* Respects newlines from the script */
+}
+
+.audio-controls {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.audio-player {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    flex: 1;
+}
+
+.audio-player h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+audio {
+    width: 100%;
+}
