@@ -25,40 +25,6 @@ zen_ai/
 └── music_output/          # Generated music files
 ```
 
-## Setup
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd zen-ai-meditation
-   ```
-
-2. Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Set up environment variables:
-   ```bash
-   cp .env.example .env
-   # Edit .env with your API keys and settings
-   ```
-
-5. Start the backend server:
-   ```bash
-   uvicorn zen_ai.backend.app:app --reload
-   ```
-
-6. Start the frontend:
-   ```bash
-   streamlit run zen_ai/frontend/app.py
-   ```
 
 ## API Keys Required
 
